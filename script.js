@@ -8,7 +8,7 @@ document.addEventListener('mousemove', (e) => {
 
     setTimeout(() => {
         star.remove();
-    }, 300); // Elimina la estrella después de un segundo
+    }, 400); // Elimina la estrella después de un segundo
 
     customCursor.style.left = e.clientX - customCursor.clientWidth / 2 + 25 +'px';
     customCursor.style.top = e.clientY - customCursor.clientHeight / 2 + 25 +'px';

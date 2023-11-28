@@ -1,14 +1,17 @@
+*{
+    outline: solid 1px red;
+}
+
 body {
     margin: 0;
     overflow: hidden;
     background-color: rgb(216, 138, 138);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-    /* Color de fondo para las estrellas */
 }
 
 
@@ -20,38 +23,37 @@ body,
 
 }
 
+h1{
+    margin-bottom: 100px;
+    font-size: 150px;
+    font-family: "nabla";
+}
+
 #custom-cursor {
     position: absolute;
     width: 52px;
-    /* Ancho de la imagen de la varita mágica */
     height: 52px;
-    /* Alto de la imagen de la varita mágica */
     background-image: url('./cursor.png');
-    /* Ruta a tu imagen de la varita mágica */
     background-size: cover;
     pointer-events: none;
     /* Evita que el cursor personalizado afecte a los elementos */
-    animation: trail 0.3s ease-out forwards;
+    animation: trail 0.8s ease-out forwards;
     /* Agrega una animación al rastro de estrellas */
 }
 
 .star {
     position: absolute;
     width: 16px;
-    /* Ancho de la imagen de la estrella */
     height: 16px;
-    /* Alto de la imagen de la estrella */
     background-image: url('./estrella.png');
-    /* Ruta a tu imagen de estrella */
     background-size: cover;
     pointer-events: none;
     /* Evita que las estrellas afecten a los elementos */
-    animation: twinkle 1s infinite;
+    animation: twinkle 3s infinite;
     /* Agrega una animación de parpadeo a las estrellas */
 }
 
-/* boton efecto humo */
-
+/* boton efecto zoom */
 
 .zoom-button {
     font-family: "nabla";
@@ -71,24 +73,10 @@ body,
     box-shadow: 2px 3px 39px 25px rgba(252, 249, 252, 0.59);
 }
 
-/* Efecto de humo al pasar el cursor */
-.zoom-button::before {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    opacity: 0;
-    transform: scale(0);
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
 .zoom-button:hover {
     opacity: 1;
-    transform: scale(2);
-    transition: transform 1.3s ease, opacity 1.3s ease;
+    transform: scale(1.5);
+    transition: transform 1.5s ease, opacity 1.5s ease;
 }
 
 .content {
