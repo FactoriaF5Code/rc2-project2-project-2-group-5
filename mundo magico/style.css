@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+}
+
+section{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+
+}
+
+section div{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 500ms ease;
+    opacity: 0.8;
+}
+
+.varitaHtml {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgVaritas/varitaHtml.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.varitaCss {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgVaritas/varitaCss.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.varitaJs {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgVaritas/varitaJs.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.varitaErrores {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgVaritas/varitaError.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.varitaMemoria {
+    height: 100%;
+    width: 100%;
+    background-image: url(../imgVaritas/varitaMemoria.png);
+    background-position: center;
+    background-size: cover;
+}
