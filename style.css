@@ -17,7 +17,7 @@ body,
 #custom-cursor {
     cursor: none;
     background-image: url(./fondoinicio.png);
-    
+
 }
 
 #custom-cursor {
@@ -53,8 +53,8 @@ body,
 /* boton efecto humo */
 
 
-.smoke-button {
-    font-family:"nabla";
+.zoom-button {
+    font-family: "nabla";
     width: 300px;
     height: 70px;
     border-radius: 50px;
@@ -66,13 +66,13 @@ body,
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    -webkit-box-shadow: 2px 3px 39px 25px rgba(252,249,252,0.59);
--moz-box-shadow: 2px 3px 39px 25px rgba(252,249,252,0.59);
-box-shadow: 2px 3px 39px 25px rgba(252,249,252,0.59);
+    -webkit-box-shadow: 2px 3px 39px 25px rgba(252, 249, 252, 0.59);
+    -moz-box-shadow: 2px 3px 39px 25px rgba(252, 249, 252, 0.59);
+    box-shadow: 2px 3px 39px 25px rgba(252, 249, 252, 0.59);
 }
 
 /* Efecto de humo al pasar el cursor */
-.smoke-button::before {
+.zoom-button::before {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.3);
     width: 100%;
@@ -85,7 +85,7 @@ box-shadow: 2px 3px 39px 25px rgba(252,249,252,0.59);
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.smoke-button:hover::before {
+.zoom-button:hover {
     opacity: 1;
     transform: scale(2);
     transition: transform 1.3s ease, opacity 1.3s ease;
@@ -96,4 +96,3 @@ box-shadow: 2px 3px 39px 25px rgba(252,249,252,0.59);
     display: flex;
     justify-content: space-around;
 }
-
