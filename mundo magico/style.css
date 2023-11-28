@@ -10,7 +10,6 @@ section{
     display: flex;
     width: 1200px;
     height: 600px;
-
 }
 
 section div{
@@ -27,6 +26,9 @@ section div{
     background-image: url(../imgVaritas/varitaHtml.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .varitaCss {
@@ -35,6 +37,9 @@ section div{
     background-image: url(../imgVaritas/varitaCss.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .varitaJs {
@@ -43,6 +48,9 @@ section div{
     background-image: url(../imgVaritas/varitaJs.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .varitaErrores {
@@ -51,6 +59,9 @@ section div{
     background-image: url(../imgVaritas/varitaError.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .varitaMemoria {
@@ -59,4 +70,30 @@ section div{
     background-image: url(../imgVaritas/varitaMemoria.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+section div:hover{
+    width: 300%;
+    opacity: 1;
+    filter: contrast(150%);
+}
+
+button{
+    font-family: "nabla";
+    width: 110px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #7a3636;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 3px 20px 2px rgba(252, 249, 252, 0.59);
+    margin-bottom: 15px;
 }
