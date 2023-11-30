@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: solid 2px red;
-}
+} */
 
 body {
     height: 100vh;
@@ -172,7 +172,7 @@ a {
     font-size: 10px;
     margin-top: 120px;
     font-family: "nabla";
-    background-color: black;
+    background-color: #072a41;
     cursor: pointer;
 }
 

@@ -2,6 +2,11 @@
     /* outline: solid 2px red; */
 }
 
+.logo {
+    height: 150px;
+    margin: 15px;
+}
+
 body {
     height: 100vh;
     background-image: url(../imgVaritas/fondoindividualvaritas.jpeg);
