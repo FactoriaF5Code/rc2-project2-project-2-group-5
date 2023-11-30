@@ -25,6 +25,75 @@ body {
     border-radius:8px;
     text-align: center;
     cursor: pointer;
+    animation: carrusel 8s linear infinite;
+
+}
+
+    @keyframes carrusel{
+    from{
+    transform: rotateY(360deg) translateZ(100px);
+    z-index: 10;
+    opacity: 0.9;  
+
+    } 
+    50%{
+    z-index: -10;
+     
+    }
+    to{
+    transform: rotateX(0deg) translateZ(100PX);
+ 
+    }   
+}
+    #varita8{
+    background-image: url(/imgVaritas/varita8.png);
+    background-size: cover; 
+   
+    }
+
+    #varita7{
+    background-image: url(/imgVaritas/varita7.png); 
+    background-size: cover; 
+    animation-delay: -1s;
+}
+
+    #varita6{
+    background-image: url(/imgVaritas/varita6.png); 
+    background-size: cover;
+    animation-delay: -2s;
+}
+
+    #varita5{
+    background-image: url(/imgVaritas/varita5.png); 
+    background-size: cover;
+    animation-delay: -3s;
+}
+
+
+    #varita4{
+    background-image: url(/imgVaritas/varita4.png); 
+    background-size: cover;
+    animation-delay: -4s;
+}
+
+
+    #varita3{
+    background-image: url(/imgVaritas/varita3.png); 
+    background-size: cover;
+    animation-delay:-5s;
+}
+
+
+    #varita2{
+    background-image: url(/imgVaritas/varita2.png); 
+    background-size: cover;
+    animation-delay: -6s;
+}
+
+    #varita1{
+    background-image: url(/imgVaritas/varita1.png); 
+    background-size: cover;
+    animation-delay: -7s;
 }
 
 .tarjeta h3 {
@@ -35,3 +104,5 @@ body {
     background-color: black;
     
 }
+
+
