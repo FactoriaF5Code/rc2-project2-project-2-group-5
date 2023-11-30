@@ -1,22 +1,37 @@
+*{
+    /* outline: solid 2px red; */
+}
+
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: cornsilk;
+    background-image: url(../imgVaritas/fondocatalogo.jpeg);
+    background-size: cover;
+
+}
+
+h2{
+    margin-bottom: 750px;
+    font-family: "nabla";
+    font-size: 100px;
 }
 
 .container {
     height: 150px;
     width: 300px;
-    perspective: 250px;
-    position: relative;
+    perspective: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 
 
 .tarjeta {
-    height: 80px;
-    width: 50px;
+    height: 150px;
+    width: 90px;
     background-color: rgb(16, 2, 204);
     font-size:40px;
     position: absolute;
@@ -25,15 +40,16 @@ body {
     border-radius:8px;
     text-align: center;
     cursor: pointer;
-    animation: carrusel 8s linear infinite;
+    animation: carrusel 20s linear infinite;
+    filter: contrast(150%);
 
 }
 
     @keyframes carrusel{
     from{
-    transform: rotateY(360deg) translateZ(100px);
+    transform: rotateY(360deg) translateZ(250px);
     z-index: 10;
-    opacity: 0.9;  
+    opacity: 0.9; 
 
     } 
     50%{
@@ -41,7 +57,9 @@ body {
      
     }
     to{
-    transform: rotateX(0deg) translateZ(100PX);
+    transform: rotateX(0deg) translateZ(250PX);
+    z-index: 10;
+    opacity: 0.9;
  
     }   
 }
@@ -54,54 +72,55 @@ body {
     #varita7{
     background-image: url(/imgVaritas/varita7.png); 
     background-size: cover; 
-    animation-delay: -1s;
+    animation-delay: -2.5s;
 }
 
     #varita6{
     background-image: url(/imgVaritas/varita6.png); 
     background-size: cover;
-    animation-delay: -2s;
+    animation-delay: -5s;
 }
 
     #varita5{
     background-image: url(/imgVaritas/varita5.png); 
     background-size: cover;
-    animation-delay: -3s;
+    animation-delay: -7.5s;
 }
 
 
     #varita4{
     background-image: url(/imgVaritas/varita4.png); 
     background-size: cover;
-    animation-delay: -4s;
+    animation-delay: -10s;
 }
 
 
     #varita3{
     background-image: url(/imgVaritas/varita3.png); 
     background-size: cover;
-    animation-delay:-5s;
+    animation-delay: -12.5s;
 }
 
 
     #varita2{
     background-image: url(/imgVaritas/varita2.png); 
     background-size: cover;
-    animation-delay: -6s;
+    animation-delay: -15s;
 }
 
     #varita1{
     background-image: url(/imgVaritas/varita1.png); 
     background-size: cover;
-    animation-delay: -7s;
+    animation-delay: -17.5s;
 }
 
 .tarjeta h3 {
     color: rgb(0, 38, 255);
-    font-size: 5px;
-    margin-top: 70px;
+    font-size: 10px;
+    margin-top: 120px;
     font-family: "nabla";
     background-color: black;
+    
     
 }
 
