@@ -72,6 +72,9 @@ p {
     font-family: Dhurjati;
     width: 800px;
     line-height: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 35px;
     color: aliceblue;
     text-shadow:
@@ -98,6 +101,8 @@ p {
 li {
     font-size: 30px;
     font-family: Dhurjati;
+    line-height: 30px;
+    text-align: center;
     color: aliceblue;
     text-shadow:
         4px 3px 4px #000,
@@ -109,4 +114,13 @@ li {
 .colorlink {
     color: #FFD600;
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+iframe {
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px black;
 }
