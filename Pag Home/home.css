@@ -75,29 +75,38 @@ p {
     font-size: 35px;
     color: aliceblue;
     text-shadow:
-        2px 2px 0 #000,
-        2px 2px 0 #000,
-        2px 2px 0 #000,
-        2px 2px 0 #000;
+        2px 2px 4px #000,
+        2px 2px 4px #000,
+        2px 2px 4px #000,
+        2px 2px 4px #000;
 }
 
 .imgQueHacemos{
     height: 200px;
     width: 400px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px black;
 }
 
 .imgQuienesSomos {
     height: 200px;
     width: 400px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px black;
 }
 
 li {
     font-size: 30px;
+    font-family: Dhurjati;
     color: aliceblue;
     text-shadow:
-        4px 3px 0 #000,
-        4px 3px 0 #000,
-        4px 3px 0 #000,
-        4px 3px 0 #000;
+        4px 3px 4px #000,
+        4px 3px 4px #000,
+        4px 3px 4px #000,
+        4px 3px 4px #000;
 }
 
+.colorlink {
+    color: #FFD600;
+    text-decoration: none;
+}
