@@ -68,20 +68,20 @@ a {
 @keyframes carrusel {
     from {
         transform: rotateY(360deg) translateZ(250px);
-        z-index: 10;
+        z-index: 1;
         opacity: 0.9;
         /*Bajamos la opacidad para que se vean las de atras */
 
     }
 
     50% {
-        z-index: -10;
+        z-index: -1;
 
     }
 
     to {
         transform: rotateX(0deg) translateZ(250PX);
-        z-index: 10;
+        z-index: 1;
         opacity: 0.9;
         /*Lo mismo que en el from para que sea un poco transparente*/
 
