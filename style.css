@@ -19,7 +19,7 @@ body,
 #custom-cursor {
     cursor: none;
     background-image: url(./fondoinicio.png);
-
+    background-size: 100% 100%;
 }
 
 h1{
